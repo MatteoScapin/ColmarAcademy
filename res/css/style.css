@@ -151,14 +151,47 @@ header img {
 }
 
 #info .quote {
-  margin: 1.5rem 0 2rem 0;
+  margin: 1.5rem 0 0.5rem 0;
   font-weight: 300;
   font-style: italic;
 }
 
+/*Courses section*/
+#courses {
+  background-color: #f2f2f2;
+  padding: 2rem 0;
+}
 
+#courses h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
 
+#courses .courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 3rem;
+}
 
+.course-card {
+  max-width: 30%;
+  background-color: #fff;
+  margin: 0.5rem;
+}
+
+.course-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.course-banner {
+  padding: 1rem;
+}
+
+.course-banner p {
+  margin: 0.5rem 0;
+}
 
 
 
