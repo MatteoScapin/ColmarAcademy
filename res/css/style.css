@@ -1,0 +1,59 @@
+/*General*/
+body {
+  font-family: "Open Sans", "Helvetica", sans-serif;
+  font-size: 16px;
+}
+
+p {
+  font-family: "Muli", "Helvetica", sans-serif;
+  font-size: 1rem;
+}
+
+a {
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/*Navbar*/
+nav {
+  height: 4rem;
+  width: 100%;
+}
+
+nav, nav ul, .logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.logo-text span {
+  font-weight: 800;
+}
+
+.logo {
+  padding-left: 1.5rem;
+}
+
+.logo img {
+  height: 2rem;
+}
+
+nav ul {
+  padding-right: 1.5rem;
+}
+
+nav ul li {
+  padding: 0.5rem;
+}
