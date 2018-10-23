@@ -193,6 +193,31 @@ header img {
   margin: 0.5rem 0;
 }
 
+/*Thesis section*/
+#thesis {
+  padding: 2rem 0;
+}
+
+#thesis h2 {
+  text-align: center;
+}
+
+#thesis .info-secondary {
+  border: none;
+}
+
+.thesis-info {
+  display: flex;
+}
+
+.info-main video {
+  max-width: 100%;
+  height: auto;
+}
+
+.info-main h3 {
+  margin: 1.5rem 0 0.5rem 0;
+}
 
 
 
