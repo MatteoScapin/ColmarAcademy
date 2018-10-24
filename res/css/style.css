@@ -94,6 +94,9 @@ nav ul li {
   .logo {
     padding: 0rem;
   }
+  h2 {
+    font-size: 1.5rem;
+  }
 }
 
 /*Header*/
@@ -255,6 +258,28 @@ header img {
 
 .course-banner p {
   margin: 0.5rem 0;
+}
+
+@media only screen and (max-width: 768px) {
+  #courses {
+    background-color: #fff;
+    border-top: 1px solid #f2f2f2;
+  }
+  #courses .courses {
+    flex-flow: column;
+    padding: 0 1rem;
+  }
+  .course-card {
+    max-width: 100%;
+    background-color: #f2f2f2;
+    margin: 0.5rem;
+  }
+  .course-card img {
+    display: none;
+  }
+  .course-banner p {
+    display: none;
+  }
 }
 
 /*Thesis section*/
