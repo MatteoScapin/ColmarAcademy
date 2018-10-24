@@ -132,6 +132,9 @@ header img {
      max-width: 100%;
      margin: 0;
    }
+   .main-banner {
+     padding: 2rem 1.5rem;
+   }
    .btn {
      display: block;
      max-width: 100%;
@@ -183,6 +186,38 @@ header img {
   margin: 1.5rem 0 0.5rem 0;
   font-weight: 300;
   font-style: italic;
+}
+
+@media only screen and (max-width: 768px) {
+  #info .info-main {
+    display: none;
+  }
+  #info .info-secondary {
+    border: none;
+    padding-top: 0;
+    margin: 0 auto;
+  }
+  .info-card {
+    flex-flow: column;
+    align-items: flex-start;
+  }
+  .info-secondary {
+    display: flex;
+    flex-flow: column;
+  }
+  .info-card .mobile {
+    max-width: 100%;
+    height: auto;
+  }
+  .info-card img {
+    margin: 0;
+  }
+  .info-banner {
+    padding: 1rem;
+  }
+  .info-card:hover {
+    background-color: #fff;
+  }
 }
 
 /*Courses section*/
