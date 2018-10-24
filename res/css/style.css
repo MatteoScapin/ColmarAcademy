@@ -308,6 +308,23 @@ header img {
   margin: 1.5rem 0 0.5rem 0;
 }
 
+@media only screen and (max-width: 768px) {
+  #thesis {
+    border-top: 1px solid #f2f2f2;
+  }
+  #thesis .info-secondary {
+    display: none;
+  }
+  #thesis .info-main {
+    max-width: 100%;
+    height: auto;
+    margin: 2rem 0 0 0;
+  }
+  #thesis .info-main h3, #thesis .info-main p {
+    display: none;
+  }
+}
+
 /*Footer*/
 footer {
   display: flex;
@@ -319,7 +336,11 @@ footer a {
   margin: 0 0.5rem;
 }
 
-
+@media only screen and (max-width: 768px) {
+  footer span {
+    display: none;
+  }
+}
 
 
 
