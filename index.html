@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Colmar Academy</title>
+  <link rel="icon" href="res/img/fav.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css?family=Muli:300i,400,700|Open+Sans:400,800" rel="stylesheet">
   <link rel="stylesheet" href="res/css/reset.css" type="text/css">
   <link rel="stylesheet" href="res/css/style.css" type="text/css">
@@ -20,7 +21,7 @@
       <span class="logo-text"><span> Colmar</span>Academy</span>
     </span>
     <!-- Menu -->
-    <ul>
+    <ul role="presentation">
       <li><a href="#">On campus</a></li>
       <li><a href="#">Online</a></li>
       <li><a href="#">For companies</a></li>
@@ -57,14 +58,14 @@
   <!-- HEADER BANNER -->
 
   <header>
-    <div class="container">
+    <div class="container" role="banner">
       <!-- Photo -->
       <img src="res/img/banner.jpg" alt="People studying">
       <!-- Banner and call to action -->
-      <div class="main-banner">
+      <div class="main-banner" role="presentation">
         <h1>Learn something new everyday</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <a href="#" class="btn">Start here</a>
+        <a href="#" class="btn" role="button">Start here</a>
       </div>
     </div>
   </header>
@@ -72,7 +73,7 @@
 
   <!-- INFO SECTION -->
 
-  <section class="container" id="info">
+  <section class="container" id="info" role="main">
     <!-- Main info -->
     <div class="info-main">
       <img src="res/img/information-main.jpg" alt="Boy reading">
@@ -118,8 +119,8 @@
 
   <!-- COURSES SECTION -->
 
-  <section id="courses">
-    <div class="container">
+  <section id="courses" role="complementary">
+    <div class="container" role="presentation">
       <h2>Start learning</h2>
       <div class="courses">
         <!-- Course card -->
@@ -183,12 +184,12 @@
 
   <!-- THESIS SECTION -->
 
-  <section class="container" id="thesis">
+  <section class="container" id="thesis" role="complementary">
     <h2>Thesis exhibit</h2>
-    <div class="thesis-info">
+    <div class="thesis-info" role="presentation">
       <!-- Main info -->
       <div class="info-main">
-        <video src="res/video/thesis.mp4" autoplay></video>
+        <video src="res/video/thesis.mp4" autoplay loop></video>
         <h3>Reimagine urban</h3>
         <p>"Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula."</p>
       </div>
@@ -220,7 +221,7 @@
 
   <footer>
     <p>&copy; Colmar Academy. All rights reserved</p>
-    <span>
+    <span role="presentation">
       <a href="#">Terms</a>
       <a href="#">Privacy</a>
     </span>
