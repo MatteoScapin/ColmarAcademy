@@ -38,7 +38,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: rgb(63, 70, 88);
 }
 
@@ -142,7 +142,7 @@ header img {
   display: inline-block;
   background-color: #ffb100;
   color: #fff;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   padding: 0.5rem 3rem;
 }
 
