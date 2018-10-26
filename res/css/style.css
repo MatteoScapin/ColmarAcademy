@@ -5,8 +5,8 @@ body {
   line-height: 1.5;
 }
 
-* {
-  transition: all 0.3s 0s;
+a, .info-card {
+  transition: all 0.3s;
 }
 
 .mobile {
@@ -19,12 +19,16 @@ p {
 }
 
 a {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 800;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: blue;
+  color: #FF5722;
   text-decoration: none;
+}
+
+a:hover {
+  color: #ffb100;
 }
 
 h1, h2, h3 {
@@ -35,18 +39,21 @@ h1, h2, h3 {
 
 h1 {
   font-size: 1.5rem;
+  color: rgb(63, 70, 88);
 }
 
 h2 {
   font-size: 1.25rem;
+  color: rgb(63, 70, 88);
 }
 
 h3 {
   font-size: 1rem;
+  color: rgb(63, 70, 88);
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1500px;
   margin: auto;
 }
 
@@ -54,6 +61,16 @@ h3 {
 nav {
   height: 4rem;
   width: 100%;
+  color: #fff;
+  background-color: rgb(63, 70, 88);
+}
+
+nav a, footer a {
+  color: #fff;
+}
+
+nav a:hover, footer a:hover {
+  color: #ffb100;
 }
 
 nav, nav ul, .logo {
@@ -65,6 +82,7 @@ nav, nav ul, .logo {
 
 .logo-text span {
   font-weight: 800;
+  color: #ffb100;
 }
 
 .logo {
@@ -80,7 +98,7 @@ nav ul {
 }
 
 nav ul li {
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
 @media only screen and (max-width: 768px) {
@@ -102,6 +120,7 @@ nav ul li {
 /*Header*/
 header {
   background-color: #f2f2f2;
+  box-shadow: 0 2px 6px rgba(0,0,0,.2);
 }
 
 header .container {
@@ -121,10 +140,15 @@ header img {
 
 .btn {
   display: inline-block;
-  background-color: #000;
+  background-color: #ffb100;
   color: #fff;
   font-size: 1.1rem;
   padding: 0.5rem 3rem;
+}
+
+.btn:hover {
+  color: #ffb100;
+  background-color: rgb(63, 70, 88);
 }
 
 @media only screen and (max-width: 768px) {
@@ -244,6 +268,7 @@ header img {
 .course-card {
   max-width: 30%;
   background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,.2);
   margin: 0.5rem;
 }
 
@@ -330,6 +355,8 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 1rem 1.5rem;
+  background-color: rgb(63, 70, 88);
+  color: #fff;
 }
 
 footer a {
