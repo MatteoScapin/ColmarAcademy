@@ -5,6 +5,10 @@ body {
   line-height: 1.5;
 }
 
+img {
+  -webkit-backface-visibility: hidden;
+}
+
 a, .info-card, .course-card, .course-card img {
   transition: all 0.2s;
 }
