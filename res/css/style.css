@@ -5,8 +5,8 @@ body {
   line-height: 1.5;
 }
 
-a, .info-card {
-  transition: all 0.3s;
+a, .info-card, .course-card, .course-card img {
+  transition: all 0.2s;
 }
 
 .mobile {
@@ -270,6 +270,26 @@ header img {
   background-color: #fff;
   box-shadow: 0 2px 6px rgba(0,0,0,.2);
   margin: 0.5rem;
+}
+
+.course-card:hover {
+  background-color: #ffb100;
+}
+
+.course-card:hover img {
+  opacity: 0.5;
+}
+
+.course-card a {
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: normal;
+  text-transform: none;
+  color: #000;
+}
+
+.course-card a:hover {
+  color: #000;
 }
 
 .course-card img {
